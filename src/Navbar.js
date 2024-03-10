@@ -16,7 +16,7 @@ const Navbar = () => {
         <ul className='links'></ul>
       </div> 
       <ul className="social-icons"></ul>
-    </div>
+    </div> 
   </nav>
 } 
 
