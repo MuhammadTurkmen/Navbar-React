@@ -18,6 +18,6 @@ const Navbar = () => {
       <ul className="social-icons"></ul>
     </div>
   </nav>
-}
+} 
 
 export default Navbar
