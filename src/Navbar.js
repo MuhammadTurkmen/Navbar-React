@@ -12,7 +12,7 @@ const Navbar = () => {
           <FaBars /> 
         </button>
       </div>
-      <div className="links-container show-container">
+      <div className="links-container show-container"> 
         <ul className='links'></ul>
       </div> 
       <ul className="social-icons"></ul>
