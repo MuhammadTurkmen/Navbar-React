@@ -17,7 +17,7 @@ const Navbar = () => {
       </div> 
       <ul className="social-icons"></ul>
     </div> 
-  </nav>
-} 
+  </nav> 
+}  
 
 export default Navbar
