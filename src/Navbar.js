@@ -8,6 +8,7 @@ const Navbar = () => {
     <div className="nav-center">
       <div className="nav-header">
         <div className="links-container"></div>
+        <ul className="social-icons"></ul>
       </div>
     </div>
   </nav>
