@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="links-container show-container">
         <ul className='links'></ul>
-      </div>
+      </div> 
       <ul className="social-icons"></ul>
     </div>
   </nav>
