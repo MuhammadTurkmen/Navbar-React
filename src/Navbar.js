@@ -11,7 +11,7 @@ const Navbar = () => {
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height
     if(showLinks) {
-      linksContainerRef.current.style.height = `${linksHeight}`
+      linksContainerRef.current.style.height = `${linksHeight}px`
     }
   }, [showLinks])
   return <nav>
