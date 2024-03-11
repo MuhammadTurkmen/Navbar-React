@@ -15,7 +15,7 @@ const Navbar = () => {
     }
     else {  
       linksContainerRef.current.style.height = '0px'     
-    }
+    } 
   }, [showLinks]) 
   return <nav>
     <div className="nav-center"> 
