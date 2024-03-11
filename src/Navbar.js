@@ -16,6 +16,7 @@ const Navbar = () => {
         <ul className='links'>
           {links.map((link) => {
             const {id, url, text} = link
+            return <li key={id}></li>
           })}
         </ul> 
       </div> 
