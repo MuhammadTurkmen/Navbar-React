@@ -14,7 +14,9 @@ const Navbar = () => {
       </div>
       <div className="links-container show-container"> 
         <ul className='links'>
-          
+          {links.map((link) => {
+            const {id, url, text} = link
+          })}
         </ul> 
       </div> 
       <ul className="social-icons">
