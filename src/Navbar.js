@@ -13,7 +13,7 @@ const Navbar = () => {
           <FaBars />  
         </button>
       </div>
-      <div className={`${showLinks ? 'links-container show-container' : 'links-container'}`}> 
+      <div className='links-container'> 
         <ul className='links'>
           {links.map((link) => {
             const {id, url, text} = link
